@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_add_employe_to_group_manager.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_calculation_hours.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_change_details.xml" value="0.20471014492753623" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_change_password.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_confirm_reset_schedule.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_creat_group_of_employes.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_main_screen_manager.xml" value="0.2223731884057971" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_main_screen_worker.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_manager_add_employee.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_manager_creat_new_schedule.xml" value="0.2151268115942029" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_manager_forgot_password.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_manager_log_in.xml" value="0.4" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_manager_set_schedule_for_worker.xml" value="0.2151268115942029" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_manager_work_schedule.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_message_manager.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_message_worker.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_new_manager.xml" value="0.4" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_none_group_manager.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_none_group_screen.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_previous_shifts.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_settings.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_settings_worker.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_splash.xml" value="0.2513586956521739" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_test.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_unique_messages.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_worker_change_details.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_worker_change_password.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_worker_forgot_password.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_worker_group_screen.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_worker_log_in.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/activity_worker_private_schedule.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/message_object_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/shift_item.xml" value="0.4" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/uniq_message_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/worker_item.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/layout/worker_schedule_item.xml" value="0.4" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/menu/back_bar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/menu/manager_add_group.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/menu/manager_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/EasyJobFinalProject/app/src/main/res/menu/worker_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/dudu rahamim/AndroidStudioProjects/EasyJobFinalProjectF/EasyJobFinalProject/app/src/main/res/layout/activity_calculation_hours.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/dudu rahamim/AndroidStudioProjects/EasyJobFinalProjectF/EasyJobFinalProject/app/src/main/res/layout/activity_new_manager.xml" value="0.3333333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

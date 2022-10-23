@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnSettingsWorker"
+        android:title="Settings" />
+    <item
+        android:id="@+id/btnWorkerSchedule"
+        android:title="Work schedule" />
+    <item
+        android:id="@+id/btnWorkerMessages"
+        android:title="Messages" />
+    <item
+        android:id="@+id/btnCalcHoursWorker"
+        android:title="Calculate hours" />
+    <item
+        android:id="@+id/btnLogOut"
+        android:title="Log Out" />
+</menu>

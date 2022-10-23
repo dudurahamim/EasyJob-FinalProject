@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/AddEmployBtn"
+        android:title="Add employee to group" />
+    <item
+        android:id="@+id/ViewGroupBtn"
+        android:title="Enter Existing group" />
+    <item
+        android:id="@+id/btnSettings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/btnWorkScheduleManager"
+        android:title="Work schedule" />
+    <item
+        android:id="@+id/btnMessagesManager"
+        android:title="Messages" />
+    <item
+        android:id="@+id/btnCalcHoursManager"
+        android:title="Calculation hours" />
+</menu>

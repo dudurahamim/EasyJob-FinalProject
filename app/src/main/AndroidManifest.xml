@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.easyjob_finalproject">
+
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EasyJobFinalProject">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PreviousShiftsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalculationHoursActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MessageActivityWorker"
+            android:exported="false" />
+        <activity
+            android:name=".UniqueMessagesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MessageManagerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmResetSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerSetScheduleForWorker"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerCreatNewSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".WorkerPrivateSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerWorkSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".WorkerChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkerChangeDetails"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivityWorker"
+            android:exported="false" />
+        <activity
+            android:name=".MainScreenWorker"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChangeDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkerGroupScreen"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerAddEmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NoneGroupActivityManager"
+            android:exported="false" />
+        <activity
+            android:name=".creatGroupOfEmployes"
+            android:exported="false" />
+        <activity
+            android:name=".AddEmployeToGroupManager"
+            android:exported="false" />
+        <activity
+            android:name=".MainScreenManager"
+            android:exported="false" />
+        <activity
+            android:name=".WorkerForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkerLogInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewManagerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerLogIn"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

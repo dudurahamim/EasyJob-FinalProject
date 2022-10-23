@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FAFAFA">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="375dp"
+        android:layout_height="190dp"
+        android:layout_marginEnd="2dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtWorkerNameSchedule"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFAFEFE9"
+                    android:clickable="true"
+                    android:fontFamily="@font/comic"
+                    android:minHeight="32dp"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtSundayWorker"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#F4F6F6"
+                        android:fontFamily="@font/comic"
+                        android:text="TextView"
+                        android:textAlignment="viewEnd" />
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#FAFAFA"
+                        android:fontFamily="@font/comic"
+                        android:text="Sunday:" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtMondayWorker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#FFAFEFE9"
+                        android:fontFamily="@font/comic"
+                        android:text="TextView"
+                        android:textAlignment="viewEnd" />
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#FFAFEFE9"
+                        android:fontFamily="@font/comic"
+                        android:text="Monday:" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtTuesdayWorker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#F4F6F6"
+                        android:fontFamily="@font/comic"
+                        android:text="TextView"
+                        android:textAlignment="viewEnd" />
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#F4F6F6"
+                        android:fontFamily="@font/comic"
+                        android:text="Tuesday:" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtWednesdayWorker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#FFAFEFE9"
+                        android:fontFamily="@font/comic"
+                        android:text="TextView"
+                        android:textAlignment="viewEnd" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#FFAFEFE9"
+                        android:fontFamily="@font/comic"
+                        android:text="Wednesday:" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtThursdayWorker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#F4F6F6"
+                        android:fontFamily="@font/comic"
+                        android:text="TextView"
+                        android:textAlignment="viewEnd" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="74dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#F4F6F6"
+                        android:fontFamily="@font/comic"
+                        android:text="Thursday:" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtFridayWorker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#FFAFEFE9"
+                        android:fontFamily="@font/comic"
+                        android:text="TextView"
+                        android:textAlignment="viewEnd" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="74dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#FFAFEFE9"
+                        android:fontFamily="@font/comic"
+                        android:text="Friday:" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtSaturdayWorker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#F4F6F6"
+                        android:fontFamily="@font/comic"
+                        android:text="TextView"
+                        android:textAlignment="viewEnd" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#F4F6F6"
+                        android:fontFamily="@font/comic"
+                        android:text="Saturday:" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#1136EA" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

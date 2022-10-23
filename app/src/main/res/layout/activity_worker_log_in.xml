@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkerLogInActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/log" />
+
+    <EditText
+        android:id="@+id/editUserNameWorker"
+        android:layout_width="216dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="80dp"
+        android:ems="10"
+        android:fontFamily="@font/comic"
+        android:hint="UserName"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editLoginPasswordWorker"
+        android:layout_width="216dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="80dp"
+        android:ems="10"
+        android:fontFamily="@font/comic"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editUserNameWorker" />
+
+    <Button
+        android:id="@+id/btnLogInWorker"
+        android:layout_width="127dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="132dp"
+        android:backgroundTint="#136EF1"
+        android:fontFamily="@font/comic"
+        android:text="Log In"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        app:cornerRadius="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtWrongDetailsWorker" />
+
+    <TextView
+        android:id="@+id/txtForgotPasswordWorker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="132dp"
+        android:fontFamily="@font/comic"
+        android:text="Forgot Password ?"
+        android:textColor="#FFA500"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editLoginPasswordWorker" />
+
+    <TextView
+        android:id="@+id/txtWrongDetailsWorker"
+        android:layout_width="263dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="72dp"
+        android:fontFamily="@font/comic"
+        android:textAlignment="center"
+        android:textColor="#F60303"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtForgotPasswordWorker" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

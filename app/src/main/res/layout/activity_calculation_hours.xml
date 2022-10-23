@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculationHoursActivity">
+
+    <TextView
+        android:id="@+id/txtCurrentTime"
+        android:layout_width="184dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="114dp"
+        android:fontFamily="@font/comic"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#136EF1"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleUserFullName" />
+
+    <TextView
+        android:id="@+id/txtTitleUserFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="181dp"
+        android:fontFamily="@font/comic"
+        android:text="TextView"
+        android:textColor="#136EF1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="102dp"
+        android:ems="10"
+        android:fontFamily="@font/comic"
+        android:hint="01/01/2022"
+        android:inputType="date"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCurrentTime" />
+
+    <EditText
+        android:id="@+id/editStartHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="98dp"
+        android:ems="10"
+        android:fontFamily="@font/comic"
+        android:hint="Start hour"
+        android:inputType="time"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtWrongDate" />
+
+    <EditText
+        android:id="@+id/editExitHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="96dp"
+        android:ems="10"
+        android:fontFamily="@font/comic"
+        android:hint="Exit hour"
+        android:inputType="time"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editStartHour" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="160dp"
+        android:backgroundTint="#136EF1"
+        android:clickable="false"
+        android:fontFamily="@font/comic"
+        android:text="ok"
+        app:cornerRadius="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editExitHour" />
+
+    <Button
+        android:id="@+id/btnPreviousShifts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="104dp"
+        android:backgroundTint="#FFAA00"
+        android:fontFamily="@font/comic"
+        android:text="Previous shifts"
+        app:cornerRadius="24dp"
+        app:icon="?attr/actionModeCloseDrawable"
+        app:iconGravity="textEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnExit" />
+
+    <TextView
+        android:id="@+id/txtWrongDate"
+        android:layout_width="244dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="104dp"
+        android:fontFamily="@font/comic"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editDate" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="366dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="22dp"
+        android:text="Please,enter a date in the following format"
+        app:layout_constraintBottom_toTopOf="@+id/txtWrongDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editDate"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

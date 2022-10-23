@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManagerSetScheduleForWorker">
+
+    <TextView
+        android:id="@+id/txtCreatScheduleDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/comic"
+        android:text="Please inser hours for your employee"
+        android:textColor="#136EF1"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editSaturday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="106dp"
+        android:ems="10"
+        android:fontFamily="@font/comic"
+        android:hint="Saturday"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editFriday" />
+
+    <EditText
+        android:id="@+id/editSunday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="106dp"
+        android:ems="10"
+        android:fontFamily="@font/comic"
+        android:hint="Sunday"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCreatScheduleDay" />
+
+    <EditText
+        android:id="@+id/editMonday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="106dp"
+        android:ems="10"
+        android:fontFamily="@font/comic"
+        android:hint="Monday"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editSunday" />
+
+    <EditText
+        android:id="@+id/editTuesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="106dp"
+        android:ems="10"
+        android:hint="Thusday"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editMonday"
+        android:fontFamily="@font/comic" />
+
+    <EditText
+        android:id="@+id/editWednesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="106dp"
+        android:ems="10"
+        android:fontFamily="@font/comic"
+        android:hint="Wednesday"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTuesday" />
+
+    <EditText
+        android:id="@+id/editThuersday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="106dp"
+        android:ems="10"
+        android:fontFamily="@font/comic"
+        android:hint="Thuersday"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editWednesday" />
+
+    <EditText
+        android:id="@+id/editFriday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="106dp"
+        android:ems="10"
+        android:fontFamily="@font/comic"
+        android:hint="Friday"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editThuersday" />
+
+    <Button
+        android:id="@+id/btnUpdateNewScheduleWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="168dp"
+        android:backgroundTint="#136EF1"
+        android:fontFamily="@font/comic"
+        android:text="Update"
+        app:cornerRadius="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editSaturday" />
+</androidx.constraintlayout.widget.ConstraintLayout>
